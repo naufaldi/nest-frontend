@@ -1,0 +1,121 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+.flex{
+ display: flex;
+}
+.flex-col{
+ flex-direction: column;
+}
+
+.body{
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+}
+header{
+ background-color: blue;
+ height: 80px;
+}
+.layout{
+ flex-direction: row;
+ flex-grow: 1;
+}
+aside{
+ background-color: rosybrown;
+ width: 30%;
+}
+main{
+ background-color: lightblue;
+}
+footer{
+ background-color: lightgreen;
+ height: 100px;
+}
+
+nav{
+ display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1080px;
+    height: 80px;
+    margin: 0 auto;
+}
+button{
+ background: transparent;
+ border: none;
+}
+.nav-logo{
+ margin-right: 32px;
+}
+.nav-menu{
+ display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.nav-list-menu{
+ display: flex;
+ gap:8px;
+}
+.list-icon-sosmed{
+ display: flex;
+    gap: 16px;
+}
+.icon-sosmed{
+ height: 32px;
+ width: 32px;
+ border-radius: 999px;
+ background-color: rgba(0,0,0,0.1);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.btn{
+ background: #7C3AED;
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 600;
+}
+.btn-icon{
+ display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.badge-google{
+ background-color: #000000;
+ display: flex;
+ color: white;
+ border-radius: 6px;
+ padding: 8px 10px;
+gap: 8px;
+align-items: center;
+}
+.badge-google img {
+ width: 23px;
+    height: 26px;
+}
+.badge-icon{
+ flex-direction: column;
+    align-items: flex-start;
+}
+.badge-paragraf{
+ text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+   
+}
+.badge-header{
+ text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+   
+}
