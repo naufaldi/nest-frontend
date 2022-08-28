@@ -10,13 +10,59 @@
 .flex-col{
  flex-direction: column;
 }
-
+.height-100vh{
+    height: 100vh;
+}
 .body{
  height: 100vh;
  display: flex;
  flex-direction: column;
 }
-header{
+
+nav{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav.flex{
+    max-width: 566px;
+    width: 100%;
+    gap: 32px;
+}
+.nav-list-menu{
+    gap: 8px;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    background: transparent;
+    border: none;
+    gap: 2px;
+}
+.list-icon-sosmed{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    max-width: 176px;
+    width: 100%;
+}
+.icon-sosmed{
+    display: flex;
+    border-radius: 999px;
+    height: 24px;
+    width: 24px;
+    justify-content: center;
+    align-items: center;
+}
+/* header{
  background-color: blue;
  height: 80px;
 }
@@ -118,4 +164,4 @@ align-items: center;
     font-size: 16px;
     font-weight: 600;
    
-}
+} */

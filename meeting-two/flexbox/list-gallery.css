@@ -14,4 +14,28 @@
  height: 700px;
  border: 3px solid cornflowerblue;
  margin: 30px;
+ /* display: grid;
+grid-template-columns: repeat(12,1fr); */
+display: flex;
 }
+img{
+ height: 300px;
+ width: 300px;
+}
+/* .cat-zero{
+ grid-column-start: 1;
+ grid-column-end: 13;
+}
+.cat-one{
+ grid-column-start: 4;
+    grid-column-end: 8;
+}
+.cat-two{
+ grid-row-start: 3;
+ grid-column: span 12 / span 12;
+}
+.cat-three{
+ grid-row-start: 4;
+ grid-column-start: 7;
+ grid-column-end: 13;
+} */

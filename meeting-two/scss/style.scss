@@ -1,0 +1,23 @@
+.makan{
+ display: grid;
+ grid-template-columns: repeat(12,1fr);
+}
+
+.login{
+ grid-column: span 6;
+ display: grid;
+ &__body{
+  background-color: aliceblue;
+ }
+ &__footer{
+  background-color: black;
+ }
+}
+.btn{
+ &--google{
+  background-color: red;
+ }
+ &--facebook{
+  background-color: blue;
+ }
+}
