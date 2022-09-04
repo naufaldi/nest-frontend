@@ -1,3 +1,6 @@
+@import 'variables';
+@import 'homepage';
+@import 'contact';
 .makan{
  display: grid;
  grid-template-columns: repeat(12,1fr);
@@ -10,14 +13,31 @@
   background-color: aliceblue;
  }
  &__footer{
-  background-color: black;
+  background-color: $black;
  }
 }
 .btn{
  &--google{
-  background-color: red;
+  background-color: $black;
  }
  &--facebook{
   background-color: blue;
+ }
+}
+
+.flex{
+ display: flex;
+ gap: 32px
+}
+
+.root{
+ header{
+  display: flex;
+ }
+ main{
+  display: flex;
+ }
+ footer{
+  display: flex;
  }
 }

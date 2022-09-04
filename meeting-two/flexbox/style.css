@@ -28,39 +28,43 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
-
-nav.flex{
+nav .flex{
     max-width: 566px;
     width: 100%;
     gap: 32px;
 }
+
 .nav-list-menu{
     gap: 8px;
-    justify-content: space-between;
+    display: flex;
+    align-items: center;
     width: 100%;
+    justify-content: space-between;
 }
 .nav-menu{
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 4px 8px;
     background: transparent;
     border: none;
-    gap: 2px;
+    gap: 4px;
 }
 .list-icon-sosmed{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 16px;
     max-width: 176px;
     width: 100%;
 }
 .icon-sosmed{
     display: flex;
-    border-radius: 999px;
-    height: 24px;
-    width: 24px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    height: 32px;
+    border-radius: 999px;
+    width: 32px;
+    border: none;
 }
 /* header{
  background-color: blue;

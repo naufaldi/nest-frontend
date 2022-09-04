@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>My First Page</h2>
+
+    <ul>
+      <li class="js-target">Unchanged</li>
+      <li class="js-target">Unchanged</li>
+      <li>Won't Change</li>
+      <li class="js-target">Unchanged</li>
+      <li>Won't Change</li>
+      <li class="js-target">Unchanged</li>
+    </ul>
+    <button class="event-button">Click me!</button>
+    <div class="button-container">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+    </div>
+    <script>
+      const elementsToChange = document.querySelectorAll('.js-target')
+      for (let i = 0; i < elementsToChange.length; i++) {
+        const currentElement = elementsToChange[i]
+        currentElement.innerText = 'Modified by JavaScript!'
+      }
+      const button = document.querySelector('.event-button')
+      button.addEventListener('click', function () {
+        alert('Hey there!')
+      })
+      document
+        .querySelector('.button-container')
+        .addEventListener('click', function (event) {
+          alert(`You clicked on button ${event.target.innerText}`)
+        })
+    </script>
+  </body>
+</html>

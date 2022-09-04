@@ -1,3 +1,11 @@
+.homepage {
+  background-color: #fff;
+}
+
+.contact {
+  background-color: #00f;
+}
+
 .makan {
   display: -ms-grid;
   display: grid;
@@ -16,14 +24,39 @@
 }
 
 .login__footer {
-  background-color: black;
+  background-color: #fff;
 }
 
 .btn--google {
-  background-color: red;
+  background-color: #fff;
 }
 
 .btn--facebook {
   background-color: blue;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+}
+
+.root header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.root main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.root footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
